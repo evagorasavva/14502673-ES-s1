@@ -78,29 +78,17 @@ Alternatively, you can run all the cells of the `academic_dropout_analysis_pipel
 
 ### Steps to Run the Notebook
 
-1. **Install Jupyter Notebook** (if not already installed):
 
-    ```bash
-    pip install notebook
-    ```
-
-2. **Navigate to the Project Directory**:
-
-    ```bash
-    cd path/to/your/project
-    ```
-
-3. **Launch Jupyter Notebook**:
+1. **Launch Jupyter Notebook**:
 
     ```bash
     jupyter notebook academic_dropout_analysis_pipeline.ipynb
     ```
 
-4. **Execute All Cells**:
-    - Once the notebook is open in your browser, you can run all cells by selecting `Kernel` > `Restart & Run All` from the menu bar.
-
-This method provides an interactive way to explore the data, visualize results, and understand the workflow step-by-step.
-
+2. **Execute All Cells**:
+    - Once the notebook is open in your browser, you can run all the cells. The parameters are already defined in the last cell.
+  
+This method creates the results directory similar to the standard python implementation.
 ---
 
 
