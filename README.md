@@ -58,7 +58,7 @@ The pipeline supports command-line parameters for customization:
   Path to the input data file.  
   *Example:*  
   ```bash
-  --data_path data/data.csv
+  --data_path data.csv
 
 - `--delimiter` **(optional)**  
   Delimiter used in the data file. Default is ;. We should use "\t" for this dataset.
@@ -68,7 +68,7 @@ The pipeline supports command-line parameters for customization:
 
 ## Example Usage
   ```bash
-  python academic_dropout_analysis.py --data_path data/data.csv --delimiter "\t" 
+  python academic_dropout_analysis.py --data_path data.csv --delimiter "\t" 
 
 
 
