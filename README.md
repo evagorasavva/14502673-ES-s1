@@ -59,3 +59,16 @@ The pipeline supports command-line parameters for customization:
   *Example:*  
   ```bash
   --data_path data/data.csv
+
+### `--delimiter` (Optional)
+Delimiter used in the data file. **Default is `;`.**  
+**Example:**
+```bash
+--delimiter "\t"
+
+python academic_dropout_analysis.py --data_path data/data.csv --delimiter "\t" --random_state 42
+
+
+
+
+
