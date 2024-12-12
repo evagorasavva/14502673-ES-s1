@@ -60,13 +60,18 @@ The pipeline supports command-line parameters for customization:
   ```bash
   --data_path data/data.csv
 
-### `--delimiter` (Optional)
-Delimiter used in the data file. **Default is `;`.**  
-**Example:**
-```bash
---delimiter "\t"
+- `--delimiter` **(optional)**  
+  Delimiter used in the data file. Default is ;. We should use "\t" for this dataset.
+  *Example:*  
+  ```bash
+  --delimiter "\t"
 
-python academic_dropout_analysis.py --data_path data/data.csv --delimiter "\t" --random_state 42
+## Example Usage
+  ```bash
+  python academic_dropout_analysis.py --data_path data/data.csv --delimiter "\t" --random_state 42
+
+
+
 
 
 
